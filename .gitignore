@@ -1,5 +1,9 @@
 # Object file
 *.o
+obj/*
 
 # Ada Library Information
 *.ali
+
+# Ignore the build binary
+bin/*
