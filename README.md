@@ -8,9 +8,11 @@
 
 ```bash
 $ ./bin/main
-Enter force in kips: 24.5
-24.50 kips
-Enter height to force in feet: 23
-23.00 feet
-Ground-line moment: 563.5 kip-ft
+Pole Embedment Calculator in Ada 2012
+=====================================
+Enter force in kips: 24.3
+24.30 kips
+Enter height to force in feet: 30
+30.00 feet
+Ground-line moment: 729.0 kip-ft
 ```
