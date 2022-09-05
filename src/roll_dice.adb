@@ -7,7 +7,9 @@ procedure Roll_Dice is
 
    subtype Range_1D is Integer range 1 .. 6;
    subtype Range_2D is Integer range 2 .. 12;
-   subtype Count_Range is Integer range 1 .. 10_000;
+   subtype Count_Range is Integer range 1 .. 100_000;
+
+   -- This program features arrays
    type Count_Array_T is array (Range_2D) of Integer;
 
    package R is new Ada.Numerics.Discrete_Random (Range_1D);
@@ -45,8 +47,7 @@ begin
       Put ("Combo ");
       Ada.Integer_Text_IO.Put (Combo, Width => 2);
       Put (": ");
-      Ada.Float_Text_IO.Put
-        (Float (Percent), Fore => 2, Aft => 1, Exp => 0);
+      Ada.Float_Text_IO.Put (Float (Percent), Fore => 2, Aft => 1, Exp => 0);
       Put ("% ");
       Ada.Float_Text_IO.Put
         (Float (Cum_Percent), Fore => 2, Aft => 1, Exp => 0);
