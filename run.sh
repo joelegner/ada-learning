@@ -1,2 +1,2 @@
 #!/bin/zsh
-./bin/main < input.txt
+./bin/embed < input.txt

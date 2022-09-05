@@ -3,7 +3,7 @@ with Ada.Float_Text_IO; use Ada.Float_Text_IO;
 with Physical_Units;    use Physical_Units;
 with Pole_Embed;
 
-procedure Main is
+procedure Embed is
    Str           : String (1 .. 80);
    Force         : Kips  := 0.0;
    Diameter      : Feet  := 0.0;
@@ -45,4 +45,4 @@ begin
    Ada.Float_Text_IO.Put (Float (Depth), Fore => 1, Aft => 1, Exp => 0);
    Ada.Text_IO.Put (" feet");
    Ada.Text_IO.New_Line;
-end Main;
+end Embed;
