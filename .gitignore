@@ -7,3 +7,6 @@ obj/*
 
 # Ignore the build binary
 bin/*
+
+# Ignore Vim backup files
+*.BAK
